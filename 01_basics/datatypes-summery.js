@@ -33,3 +33,37 @@ const myFunction = function (){
 }
 
 console.log(typeof myFunction);
+
+
+// ################################################################################################
+
+// Stack(Primitive) and Heap(Non-primitive)
+
+let myName = "Pratheek"
+
+let anotherName = myName
+anotherName = "Shetty"
+
+console.log(myName);
+console.log(anotherName);
+
+// heap (reference)- Non- primitive
+
+let userOne = {
+    email: "Shetty@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Pratheekrai@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
+
+
