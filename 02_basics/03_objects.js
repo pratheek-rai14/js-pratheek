@@ -28,7 +28,7 @@ JsUser.Email = "pratheekrai@google.com"  //Changing the email
 JsUser.Email = "pratheekrai@microsoft.com"
 // console.log(JsUser);
 
-JsUser.greeting = function(){
+JsUser.greeting = function(){   //Creating a function
     console.log("Hello Js User");
 }
 JsUser.greetingTwo = function(){
