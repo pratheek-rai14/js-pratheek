@@ -57,15 +57,51 @@ const user = [
 ]
 
 // user[1].email
-console.log(user[2].email);
+// console.log(user[2].email);
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+// console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+
+
+// de-Structure and JSON API introduction
+
+const course = {
+    courseName: "Javascript",
+    coursePrice: "999",
+    courseInstructor: "Pratheek"
+}
+
+// console.log(course.courseInstructor);
+// console.log(course.courseName);
+
+const {courseInstructor: instructor} = course
+// console.log(courseInstructor);
+console.log(instructor);
+
+// JSON 
+// {
+//     "name": "Pratheek",    // JSON formats
+//     "courseName": "Javascript",
+//     "coursePrice": "free"
+// }
+
+// Some times API's will provide values within array formats
+
+[
+    {
+    },
+    {
+    },
+    {
+    }
+]
+
 
 
 
