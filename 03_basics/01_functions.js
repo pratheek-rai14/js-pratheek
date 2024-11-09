@@ -39,5 +39,38 @@ function loginUserMessage(Username = "Sam") {      //Adding default value to the
 }
 
 // console.log(loginUserMessage("Pratheek"));
-console.log(loginUserMessage("Pratheek"));
+// console.log(loginUserMessage("Pratheek"));
+
+
+
+function calculateCartPrize(...number1){
+    return number1
+}
+// console.log(calculateCartPrize(200, 400, 600));
+
+
+const user = {
+    username: "Pratheek",
+    price: 199
+}
+
+function handleObject(anyobject) {
+    console.log(`Username is ${anyobject.username} and Price is ${anyobject.price}`);   
+}
+// console.log(handleObject(user));
+console.log(handleObject({
+    username: "Sam",
+    price: 399
+}));
+
+const myNewArray = [200, 300, 500]
+
+function returnSecondValue(getArray) {
+    return getArray[3]
+}
+
+// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([100, 400, 300, 1000]));
+
+
 
