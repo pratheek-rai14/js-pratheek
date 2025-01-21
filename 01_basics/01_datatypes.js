@@ -8,10 +8,17 @@ console.log(3
 
 console.log("Pratheek");
 
-let name = "Pratheek"
-let age = "20"
-let isLoggedIn = true
-let state;
+let name = "Pratheek";
+let age = "20";
+let isLoggedIn = true;
+let state = "karnataka";
+
+console.log(name);
+console.log(age);
+console.log(isLoggedIn);
+console.log(state);
+
+
 
 // premitive datatypes
 
