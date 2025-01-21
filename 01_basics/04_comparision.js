@@ -15,11 +15,11 @@ console.log(null >= 0);
 console.log(undefined > 0);
 console.log(undefined == 0);
 console.log(undefined < 0);
+
 // Avoid these type of code 
+// // ===
 
-// ===
-
-console.log("2" === 2);
+// console.log("2" === 2);
 
 
 
