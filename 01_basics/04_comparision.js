@@ -19,7 +19,7 @@ console.log(undefined < 0);
 // Avoid these type of code 
 // // ===
 
-// console.log("2" === 2);
+console.log("2" === 2);         //Check the datatype also
 
 
 
