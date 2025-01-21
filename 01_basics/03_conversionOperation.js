@@ -3,7 +3,7 @@ let score = 34
 // console.log(typeof score);
 // console.log(typeof(score));
 
-let valueInNumber = Number(score)
+let valueInNumber = Number(score)   //Passing the Value
 // console.log(typeof valueInNumber);
 // console.log(valueInNumber);
 
@@ -12,10 +12,10 @@ let valueInNumber = Number(score)
 // true => 1; false => 0
 
 
-let isLoggedIn = 1
+let isLoggedIn = 0                 //show's the true or false [0 & 1]
 
-// let booleanIsLoggedIn = Boolean(isLoggedIn)
-// console.log(booleanIsLoggedIn);
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(booleanIsLoggedIn);
 
 
 // 1 =>true; 0 =>false
@@ -31,7 +31,7 @@ let stringNumber = String(someNumber)
 // ************************************ Operations *****************************************
 
 let value = 3
-let negValue = -value
+// let negValue = -value
 // console.log(negValue);
 
 // console.log(3+3);
@@ -58,7 +58,7 @@ let str3 = str1 + str2
 
 let num1, num2, num3
 
-num1 = num2 = num3 = 2 + 2  //incorrect way to write code 
+// num1 = num2 = num3 = 2 + 2  //incorrect way to write code 
 
 let gameCounter = 100
 ++gameCounter
