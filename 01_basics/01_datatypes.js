@@ -8,7 +8,7 @@ console.log(3
 
 console.log("Pratheek Rai");
 
-let name = "Pratheek";
+let name = "Pratheek rai";
 let age = "20";
 let isLoggedIn = true;
 let state = "karnataka";
