@@ -6,7 +6,7 @@ console.log(3
     +
     3); //code readability should be high 
 
-console.log("Pratheek");
+console.log("Pratheek Rai");
 
 let name = "Pratheek";
 let age = "20";
